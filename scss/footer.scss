@@ -1,0 +1,27 @@
+footer{
+    font-family: "Pacifico", cursive;
+    padding: 4rem 2rem;
+    background-color:#244281;
+    .icon{
+        width: 50px;
+    }
+    .E-mail{
+        border: nome;
+        border-radius: 2rem;
+        width: 20rem;
+        height: 2rem;
+        padding: 1.5rem;
+     }
+     .E-mail:focus{
+         width: 25rem;
+         height: 3rem;
+         background-color: white;
+         color: rgb(248, 167, 212);
+     }
+     .submit{
+         border: .3rem solid black;
+         border-radius: 2rem;
+         background-color: rgb(248, 141, 200);
+         padding:  .5rem 2rem;
+     }
+}

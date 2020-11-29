@@ -1,0 +1,100 @@
+$letra-principal: "Pacifico", cursive;
+$color-letra: black;
+$letra:blue;
+@import "footer";
+@import "aside";
+@import "main";
+@import "section";
+
+
+.nav{
+    link{
+        color: white !important;
+    }
+    item{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        :hover{
+            background-color: white;
+            color: $color-letra !important;
+            border-radius: 2rem;
+        }
+    }
+}
+.navbar{
+    background-color: rgb(36, 66, 129);
+    padding: 2rem;
+    font-family: $letra-principal;
+    font-size: 1.5rem;
+}
+
+body{
+    color:$letra;
+    background-color: rgb(247, 217, 217);
+    font-family: $letra-principal;
+    background-image: linear-gradient(rgb(250, 193, 193), rgb(252, 236, 236));
+    a{
+        text-decoration: none;
+    }
+}
+.redes{
+      padding: 2rem 4rem !important;
+  }
+  .no-gutters{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+}
+@media(min-width:576px){
+    .carousel.item{
+        height: 100vh !important;
+    }
+}
+.carousel-item{
+    height: 500px;
+}
+.slide1{
+    background-image: url(../imagenes/bazar3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.slide2{
+    background-image: url(../imagenes/bazar4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.slide3{
+    background-image: url(../imagenes/hudsondorada.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+iframe{
+    width: 350px;
+    height: 315px;
+}
+@media( min-width:576px){
+    iframe{
+        width: 560px;
+    }
+}
+ul{
+   li{
+    display: inline-flex;
+    }
+   p{
+    color:$letra
+   } 
+   img{
+       width: 200px;
+       height: 150px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
