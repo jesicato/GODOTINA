@@ -1,5 +1,6 @@
 $letra-principal: "Pacifico", cursive;
 $color-letra: black;
+$letra:blue;
 @import "footer";
 @import "aside";
 @import "main";
@@ -12,14 +13,14 @@ $color-letra: black;
 
 .nav{
     link{
-        color: white;
+        color: white !important;
     }
     item{
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         :hover{
             background-color: white;
-            color:blue;
+            color: $color-letra !important;
             border-radius: 2rem;
         }
     }
@@ -27,23 +28,25 @@ $color-letra: black;
 .navbar{
     background-color: rgb(36, 66, 129);
     padding: 2rem;
+    font-family: $letra-principal;
     font-size: 1.5rem;
 }
 
 body{
     color:$letra;
     background-color: rgb(247, 217, 217);
+    font-family: $letra-principal;
     background-image: linear-gradient(rgb(250, 193, 193), rgb(252, 236, 236));
     a{
         text-decoration: none;
     }
 }
 .redes{
-      padding: 2rem 4rem;
+      padding: 2rem 4rem !important;
   }
   .no-gutters{
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
 }
 @media(min-width:576px){
     .carousel.item{
@@ -86,7 +89,6 @@ ul{
        height: 150px;
    }
 }
-
 
 
 
