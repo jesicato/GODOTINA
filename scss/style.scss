@@ -5,6 +5,10 @@ $letra:blue;
 @import "aside";
 @import "main";
 @import "section";
+@mixin slide {
+    background-size: cover;
+    background-position: center center;
+}
 
 
 .nav{
@@ -54,18 +58,15 @@ body{
 }
 .slide1{
     background-image: url(../imagenes/bazar3.jpg);
-    background-size: cover;
-    background-position: center center;
+    @include slide;
 }
 .slide2{
     background-image: url(../imagenes/bazar4.jpg);
-    background-size: cover;
-    background-position: center center;
+    @include slide;
 }
 .slide3{
     background-image: url(../imagenes/hudsondorada.jpg);
-    background-size: cover;
-    background-position: center center;
+    @include slide;
 }
 iframe{
     width: 350px;

@@ -70,8 +70,7 @@ footer {
     transform: translateY(-8px); } }
 
 .promocion-container {
-  color: white !important;
-  background-color: #f388ba;
+  background-color: #f7d9d9;
   padding: 4rem !important;
   font-family: "Pacifico", cursive;
   font-size: 2rem; }
