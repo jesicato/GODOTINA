@@ -13,14 +13,14 @@ $letra:blue;
 
 .nav{
     link{
-        color: white !important;
+        color: white;
     }
     item{
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         :hover{
             background-color: white;
-            color: $color-letra !important;
+            color: $color-letra;
             border-radius: 2rem;
         }
     }
@@ -42,11 +42,11 @@ body{
     }
 }
 .redes{
-      padding: 2rem 4rem !important;
+      padding: 2rem 4rem;
   }
   .no-gutters{
-      padding-left: 0 !important;
-      padding-right: 0 !important;
+      padding-left: 0;
+      padding-right: 0;
 }
 @media(min-width:576px){
     .carousel.item{
@@ -89,10 +89,6 @@ ul{
        height: 150px;
    }
 }
-
-
-
-
 
 
 
